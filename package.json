@@ -1,6 +1,6 @@
 {
   "name": "@silvings/eslint-config",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "eslint配置",
   "main": "index.js",
   "repository": "https://github.com/sm00thCr1m1n4l/eslint-config",
@@ -17,7 +17,7 @@
     "cz-conventional-changelog": "3.0.2"
   },
   "publishConfig": {
-    "access":"public"
+    "access": "public"
   },
   "config": {
     "commitizen": {
