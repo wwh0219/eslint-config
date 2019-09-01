@@ -1,0 +1,24 @@
+{
+  "name": "@silvings/eslint-config",
+  "version": "1.0.0",
+  "description": "eslint配置",
+  "main": "index.js",
+  "repository": "https://github.com/sm00thCr1m1n4l/eslint-config",
+  "author": "wenwenhai",
+  "license": "MIT",
+  "peerDependencies": {
+    "@typescript-eslint/eslint-plugin": "^2.0.0",
+    "@typescript-eslint/parser": "^2.0.0",
+    "babel-eslint": "^10.0.3",
+    "eslint": "^6.3.0",
+    "eslint-plugin-vue": "^5.2.3"
+  },
+  "devDependencies": {
+    "cz-conventional-changelog": "3.0.2"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}
