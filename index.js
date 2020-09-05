@@ -313,9 +313,8 @@ module.exports = {
 		'require-await': [
 			'warn',
 		],
-		'no-unused-vars': [
-			'warn', 
-		],
+	    	'no-unused-vars': 0,
+    		'@typescript-eslint/no-unused-vars': 'error',
 		'array-bracket-newline': [
 			'warn', 'always', 
 		],
